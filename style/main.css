@@ -1,0 +1,143 @@
+:root{
+    --vermelho: #e50914;
+
+   --rosa: #c20995 ;
+
+   --azul: #1d107c;
+
+    --preta: #141414;
+}
+
+
+
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+/* base */
+body{
+background: var(--preta);
+font-family: 'Times New Roman', Times, serif;
+color: #C0C0C0;
+
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+margin-left: 5px;
+    color: var(--rosa);
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 50px;
+
+}
+
+header nav a{
+text-decoration: none;
+color: #AAA;
+margin-right: 10px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header nav a:hover{
+color: var(--rosa);
+
+}
+
+/*filme principal*/
+
+.banner{
+    font-size:16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/bladecapa.jpg');
+
+    height:600px;
+background-size: cover;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.banner .descricao{
+    margin-top: 5px;
+    margin-bottom: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.banner .titulo {
+    margin-top: 10%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+}
+
+.botao{
+
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 10px;
+    margin-right: 15px;
+    font-size: 13px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+
+}
+
+.botao:hover{
+    background-color:var(--rosa);
+    color:black;
+}
+
+.botao i{
+    margin: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.banner .container{
+    width: 70%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+
+.carrosel-filmes{
+    margin-top:5px;
+}
+
+.box-filme:hover{
+    background-color: var(--rosa);
+    color:black;
+   padding: 4px;
+    margin-right: 10px;
+    font-size: 13px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.texto{
+    text-decoration: none;
+   
+    
+}
